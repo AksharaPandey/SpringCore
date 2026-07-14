@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd"> <bean class="com.springcore.Student" name="student1">
-    <property name="studentId" value="22455" />
-    <property name="studentName" value="Narendra Modi" />
-    <property name="studentAddress" value="Delhi" />
-</bean>
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="com.springcore.Student" name="student1">
+        <property name="studentId" value="22455"/>
+        <property name="studentName" value="Narendra Modi"/>
+        <property name="studentAddress" value="Delhi"/>
+    </bean>
+    <bean class="com.springcore.Student" name="student2">
+        <property name="studentId" value="22445"/>
+        <property name="studentName" value="Manmohan Singh"/>
+        <property name="studentAddress" value="Mumbai"/>
+    </bean>
 
 </beans>

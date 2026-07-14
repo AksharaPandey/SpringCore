@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean name="emp1" class="">
+        <property name="name" value="Radhe"/>
+        <property name="phones">
+            <list>
+                <value>74561</value>
+                <value>42893</value>
+                <value>67676</value>
+                <value>96979</value>
+            </list>
+        </property>
+        <property name="address">
+            <set>
+                <value>Delhi</value>
+                <value>Sector 62</value>
+                <value>Saket</value>
+            </set>
+        </property>
+        <property name="courses">
+            <map>
+                <entry key="Java" value="2 months"/>
+                <entry key="Python" value="2.5 months"/>
+
+            </map>
+        </property>
+    </bean>
+
+</beans>
