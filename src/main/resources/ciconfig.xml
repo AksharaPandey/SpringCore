@@ -4,6 +4,9 @@
        xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="com.springcore.ci.Certi" name="cert">
+        <constructor-arg value="Android using kotlin"/>
+    </bean>
     <bean class="com.springcore.ci.Person" name="person">
        <constructor-arg>
            <value>Ram Dhari Singh Dinkar</value>
@@ -11,6 +14,11 @@
         <constructor-arg>
             <value>12</value>
         </constructor-arg>
+    </bean>
+    <bean class="com.springcore.ci.Addition" name="add">
+        <constructor-arg value="12"/>
+        <constructor-arg value="122"/>
+
     </bean>
 
 </beans>
