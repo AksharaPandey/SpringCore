@@ -8,6 +8,7 @@ public class Samosa {
     }
 
     public void setPrice(double price) {
+        System.out.println("Setting property");
         this.price = price;
     }
 
@@ -20,5 +21,11 @@ public class Samosa {
         return "Samosa{" +
                 "price=" + price +
                 '}';
+    }
+    public void init(){
+        System.out.println("Inside init method");
+    }
+    public void destroy(){
+        System.out.println("Inside destroy method");
     }
 }
